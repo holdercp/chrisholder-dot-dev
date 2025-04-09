@@ -10,6 +10,7 @@
   --font-size-sm: 0.875rem; /* 14px */
   --font-size-lg: 1.125rem; /* 18px */
   --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
 }
 
 html {
@@ -57,6 +58,11 @@ footer {
   margin: 0 auto;
   padding: 2rem 1rem;
   font-size: var(--font-size-sm);
+}
+
+h1 {
+  font-size: var(--font-size-3xl);
+  line-height: calc(2.25 / 1.875);
 }
 
 a {
