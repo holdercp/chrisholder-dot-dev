@@ -1,9 +1,8 @@
 :root {
-  --gray-light: oklch(98.5% 0.002 247.839);
-  --gray-dark: oklch(37.3% 0.034 259.733);
+  color-scheme: light dark;
 
-  --color-bg: var(--gray-light);
-  --color-text: var(--gray-dark);
+  --color-bg: oklch(98.5% 0 0);
+  --color-fg: oklch(37% 0.013 285.805);
 
   --site-max-width: 42rem; /* 672px */
 
@@ -14,8 +13,8 @@
 }
 
 html {
-  color: var(--color-text);
-  background-color: var(--color-bg);
+  color: light-dark(var(--color-fg), var(--color-bg));
+  background-color: light-dark(var(--color-bg), var(--color-fg));
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: var(--font-size-lg);
@@ -66,7 +65,7 @@ h1 {
 }
 
 a {
-  color: var(--color-text);
+  color: light-dark(var(--color-fg), var(--color-bg));
   font-weight: 700;
 }
 
