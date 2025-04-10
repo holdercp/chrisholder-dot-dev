@@ -3,6 +3,7 @@
 
   --color-bg: oklch(98.5% 0 0);
   --color-fg: oklch(37% 0.013 285.805);
+  --color-primary: oklch(51.1% 0.262 276.966);
 
   --site-max-width: 42rem; /* 672px */
 
@@ -66,7 +67,11 @@ h1 {
 
 a {
   color: light-dark(var(--color-fg), var(--color-bg));
-  font-weight: 700;
+  text-decoration-thickness: 2px;
+
+  &:hover {
+    color: var(--color-primary);
+  }
 }
 
 @media screen and (min-width: 40rem) {
