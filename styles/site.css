@@ -4,11 +4,13 @@
   --color-bg: oklch(98.5% 0 0);
   --color-fg: oklch(37% 0.013 285.805);
   --color-primary: oklch(51.1% 0.262 276.966);
+  --color-primary-light: oklch(70.2% 0.183 293.541);
 
   --site-max-width: 42rem; /* 672px */
 
   --font-size-sm: 0.875rem; /* 14px */
   --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
   --font-size-2xl: 1.5rem; /* 24px */
   --font-size-3xl: 1.875rem; /* 30px */
 }
@@ -32,8 +34,6 @@ header {
   margin: 0 auto;
   padding: 2rem 1rem 0;
   text-align: center;
-  font-size: var(--font-size-2xl);
-  line-height: calc(2 / 1.5);
 
   & .site-img {
     height: 150px;
@@ -42,7 +42,14 @@ header {
   }
 
   & .site-title {
+    font-size: var(--font-size-2xl);
+    line-height: calc(2 / 1.5);
     font-weight: bold;
+  }
+
+  & .site-subtitle {
+    font-size: var(--font-size-xl);
+    line-height: calc(1.75 / 1.25);
   }
 }
 
@@ -70,7 +77,7 @@ a {
   text-decoration-thickness: 2px;
 
   &:hover {
-    color: var(--color-primary);
+    color: light-dark(var(--color-primary), var(--color-primary-light));
   }
 }
 
