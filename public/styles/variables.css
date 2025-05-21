@@ -1,0 +1,16 @@
+:root {
+  --color-bg: oklch(98.5% 0 0);
+  --color-fg: oklch(37% 0.013 285.805);
+  --color-primary: oklch(51.1% 0.262 276.966);
+  --color-primary-light: oklch(70.2% 0.183 293.541);
+
+  --site-max-width: 42rem; /* 672px */
+
+  --font-family: system-ui, sans-serif;
+
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+}

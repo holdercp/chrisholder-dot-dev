@@ -1,25 +1,12 @@
 :root {
   color-scheme: light dark;
-
-  --color-bg: oklch(98.5% 0 0);
-  --color-fg: oklch(37% 0.013 285.805);
-  --color-primary: oklch(51.1% 0.262 276.966);
-  --color-primary-light: oklch(70.2% 0.183 293.541);
-
-  --site-max-width: 42rem; /* 672px */
-
-  --font-size-sm: 0.875rem; /* 14px */
-  --font-size-lg: 1.125rem; /* 18px */
-  --font-size-xl: 1.25rem; /* 20px */
-  --font-size-2xl: 1.5rem; /* 24px */
-  --font-size-3xl: 1.875rem; /* 30px */
 }
 
 html {
   color: light-dark(var(--color-fg), var(--color-bg));
   background-color: light-dark(var(--color-bg), var(--color-fg));
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: var(--font-family);
+  font-weight: normal;
   font-size: var(--font-size-lg);
   line-height: calc(1.75 / 1.125);
 }
