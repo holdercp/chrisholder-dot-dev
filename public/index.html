@@ -12,15 +12,15 @@
       content="The home of Chris Holder on the internet"
     />
 
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
 
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
     <header>
       <img
         class="site-img"
-        src="chris-holder-headshot.webp"
+        src="/chris-holder-headshot.webp"
         height="150"
         width="150"
         alt="A picture of Chris Holder"
@@ -28,6 +28,19 @@
       <div>
         <div class="site-title">Chris Holder</div>
         <div class="site-subtitle">Software Engineer in Nashville</div>
+        <nav aria-label="Primary" class="nav-primary">
+          <ul>
+            <li>
+              <a href="/" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="/pages/uses.html">Uses</a>
+            </li>
+            <li>
+              <a href="/chris-holder-resume.pdf" target="_blank">Resume</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -80,7 +93,7 @@
           ><strong>LinkedIn</strong></a
         >. To see what I’ve been working on, take a peek at my
         <a href="https://github.com/holdercp/"><strong>GitHub</strong></a> and
-        <a href="chris-holder-resume.pdf" target="_blank"
+        <a href="/chris-holder-resume.pdf" target="_blank"
           ><strong>resume</strong></a
         >.
       </p>
@@ -91,6 +104,6 @@
       Holder
     </footer>
 
-    <script type="module" src="index.js"></script>
+    <script type="module" src="/index.js"></script>
   </body>
 </html>

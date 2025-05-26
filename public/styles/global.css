@@ -40,6 +40,34 @@ header {
   }
 }
 
+.nav-primary {
+  margin-top: 1rem;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: var(--font-size-sm);
+  }
+
+  a {
+    color: light-dark(var(--color-primary), var(--color-primary-light));
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 main {
   max-width: var(--site-max-width);
   margin: 0 auto;
@@ -77,5 +105,9 @@ a {
     & .site-img {
       margin: 0;
     }
+  }
+
+  .nav-primary ul {
+    justify-content: flex-start;
   }
 }
