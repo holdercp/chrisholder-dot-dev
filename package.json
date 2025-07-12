@@ -1,0 +1,24 @@
+{
+  "name": "chrisholder-dot-dev",
+  "version": "1.0.0",
+  "description": "This is the code for my personal website at [chrisholder.dev](https://chrisholder.dev).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holdercp/chrisholder-dot-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holdercp/chrisholder-dot-dev/issues"
+  },
+  "homepage": "https://github.com/holdercp/chrisholder-dot-dev#readme",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
