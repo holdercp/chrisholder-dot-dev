@@ -1,6 +1,10 @@
 ---
-layout: layout.html
+layout: base.html
 title: Welcome, World!
+eleventyNavigation:
+  key: home
+  title: Home
+  order: 1
 ---
 
 # {{ title }}

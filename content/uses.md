@@ -1,13 +1,17 @@
 ---
-layout: layout.html
+layout: base.html
 title: Uses
+date: Last Modified
+eleventyNavigation:
+  key: uses
+  title: Uses
 ---
 
 # {{ title }}
 
 This is a list of hardware, software, and products I use to get things done as a software engineer. It’s inspired by [uses.tech](https://uses.tech). I’ll keep this page updated as things change, and hopefully you might find something useful to add to your own setup.
 
-Last updated **July 13, 2025**
+Last updated **{{ page.date | formatDate }}**
 
 ## Hardware
 

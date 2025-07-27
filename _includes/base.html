@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }} - Chris Holder Dot Dev</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        {% set navPages = collections.all | eleventyNavigation %}
+        <ul>
+          {%- for entry in navPages %}
+            <li {% if entry.url == page.url %}aria-current="page"{% endif %}>
+              <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </nav>
+    </header>
+    <main>{{ content | safe }}</main>
+    <footer>
+      <p>Copyright &copy; {{ currentYear }} Chris Holder, chrisholder.dev</p>
+    </footer>
+  </body>
+</html>
