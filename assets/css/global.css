@@ -1,6 +1,10 @@
-html {
-  background-color: var(--color-slate-50);
-  color: var(--color-slate-950);
+:root {
+  --primary-color: var(--color-teal-700);
+  --color: var(--color-zinc-700);
+  --background-color: var(--color-zinc-100);
+
+  background-color: var(--background-color);
+  color: var(--color);
   font-family: var(--font-family-sans);
 }
 
@@ -9,7 +13,7 @@ body > main,
 body > footer {
   width: 100%;
   padding: var(--spacing-4);
-  max-width: var(--container-width);
+  max-width: var(--width-container);
   margin-inline: auto;
 }
 
@@ -21,7 +25,59 @@ body > footer {
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-block-start: var(--spacing-6);
+  margin-block-end: var(--spacing-4);
+}
+
+h1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-5xl);
+}
+
+h2 {
+  font-size: var(--font-size-3xl);
+  line-height: var(--line-height-3xl);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-2xl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+}
+
+h6 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+}
+
+p {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  margin-block-start: 0;
+  margin-block-end: var(--spacing-4);
+}
+
 a {
-  color: var(--color-indigo-600);
+  color: var(--color);
   text-decoration-thickness: 2px;
+
+  &:hover {
+    color: var(--primary-color);
+  }
 }
