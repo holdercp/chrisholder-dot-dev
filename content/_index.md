@@ -1,10 +1,10 @@
 +++
 date = '2025-07-12T22:20:27-05:00'
 draft = false
-title = 'Welcome, World'
+title = 'Welcome, World!'
 +++
 
-👋 Hi! I'm Chris Holder.
+👋 Hi! I'm **Chris Holder**.
 
 This is my little slice of the internet. Thanks for stopping by.
 

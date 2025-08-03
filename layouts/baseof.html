@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html
   lang="{{ site.Language.LanguageCode }}"
   dir="{{ or site.Language.LanguageDirection `ltr` }}"
@@ -6,7 +6,7 @@
   {{ partial "head.html" . }}
   <body>
     {{ partial "header.html" . }}
-    <main>{{ block "main" . }} {{ end }}</main>
+    <main>{{ block "main" . }}{{ end }}</main>
     {{ partial "footer.html" . }}
   </body>
 </html>

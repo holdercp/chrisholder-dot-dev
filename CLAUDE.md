@@ -9,16 +9,19 @@ This is Chris Holder's personal website built with Hugo, a static site generator
 ## Commands
 
 ### Development
+
 - `hugo server` - Start development server with live reload
 - `hugo server -D` - Start development server including draft content
 - `hugo` - Build static site to `public/` directory
 
 ### Deployment
+
 - `hugo --minify` - Build optimized production site
 
 ## Architecture
 
 ### Hugo Site Structure
+
 - **Content**: Markdown files in `content/` define pages and posts
   - `content/_index.md` - Homepage content
   - `content/uses.md` - Uses page content
@@ -34,23 +37,28 @@ This is Chris Holder's personal website built with Hugo, a static site generator
 - **Public**: Generated site output (not tracked in git)
 
 ### CSS Pipeline
+
 The site uses Hugo Pipes for asset processing. CSS files are:
+
 1. Concatenated in order: reset.css → global.css
 2. Minified for production
 3. Fingerprinted for cache busting
 4. Output as single `index.css` file
 
 ### Configuration
+
 - `hugo.toml` - Main Hugo configuration
 - Site URL: https://chrisholder.dev/
 - Git integration enabled for last modified dates
 
 ## Key Files to Understand
+
 - `layouts/baseof.html:6-10` - Base template structure and partial includes
 - `layouts/_partials/head.html:6-9` - CSS asset pipeline configuration
 - `content/_index.md` - Homepage content and frontmatter
 
 ## Development Notes
+
 - This is a minimal Hugo site focused on simplicity
 - No JavaScript framework or complex build process
 - Content is primarily static with focus on performance and accessibility

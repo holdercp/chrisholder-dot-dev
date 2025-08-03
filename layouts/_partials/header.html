@@ -1,15 +1,33 @@
 {{ $currentPath := .RelPermalink }}
 
+
 <header>
   <nav>
-    <a href="/">Chris Holder Dot Dev</a>
+    <a href="/"
+      ><strong
+        >Chris Holder
+        <span
+          style="color: var(--primary-color); font-size: var(--font-size-xl);"
+          >.</span
+        >
+        Dev</strong
+      ></a
+    >
     <ul>
       <li>
-        <a href="/uses" {{ if hasPrefix $currentPath "/uses" }}aria-current="page" {{ end }}>Uses</a>
+        <a
+          href="/uses"
+          {{ if hasPrefix $currentPath "/uses" }}aria-current="page"{{ end }}
+          >Uses</a
+        >
       </li>
       <li>
-        <a href="/chris-holder-resume.pdf" type="application/pdf" {{ if hasPrefix $currentPath "/resume"
-          }}aria-current="page" {{ end }}>Resume</a>
+        <a
+          href="/chris-holder-resume.pdf"
+          type="application/pdf"
+          {{ if hasPrefix $currentPath "/resume" }}aria-current="page"{{ end }}
+          >Resume</a
+        >
       </li>
     </ul>
   </nav>

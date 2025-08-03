@@ -26,10 +26,11 @@
 
   /* Typography */
   --font-family-sans: system-ui, sans-serif;
-  --font-family-serif: Charter, "Bitstream Charter", "Sitka Text", Cambria,
-    serif;
-  --font-family-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
-    Consolas, "DejaVu Sans Mono", monospace;
+  --font-family-serif:
+    Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+  --font-family-mono:
+    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
 
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
@@ -54,6 +55,10 @@
   --line-height-5xl: calc(3 / 3);
   --line-height-6xl: calc(3.75 / 3.75);
   --line-height-7xl: calc(4.5 / 4.5);
+
+  --letter-spacing-tight: -0.05em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.05em;
 
   /* Spacing */
   --spacing-base: 16px;
