@@ -1,18 +1,16 @@
 {{ $currentPath := .RelPermalink }}
-{{ with resources.GetMatch "images/chris-holder-headshot.webp" }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}
-<nav>
-  <ul>
-    <li>
-      <a href="/" {{ if eq $currentPath "/" }}aria-current="page" {{ end }}>Home</a>
-    </li>
-    <li>
-      <a href="/uses" {{ if hasPrefix $currentPath "/uses" }}aria-current="page" {{ end }}>Uses</a>
-    </li>
-    <li>
-      <a href="/chris-holder-resume.pdf" type="application/pdf" {{ if hasPrefix $currentPath "/resume"
-        }}aria-current="page" {{ end }}>Resume</a>
-    </li>
-  </ul>
-</nav>
+
+<header>
+  <nav>
+    <a href="/">Chris Holder Dot Dev</a>
+    <ul>
+      <li>
+        <a href="/uses" {{ if hasPrefix $currentPath "/uses" }}aria-current="page" {{ end }}>Uses</a>
+      </li>
+      <li>
+        <a href="/chris-holder-resume.pdf" type="application/pdf" {{ if hasPrefix $currentPath "/resume"
+          }}aria-current="page" {{ end }}>Resume</a>
+      </li>
+    </ul>
+  </nav>
+</header>

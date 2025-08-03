@@ -1,0 +1,66 @@
+:root {
+  /* Colors */
+  --color-slate-50: oklch(0.984 0.003 247.858);
+  --color-slate-100: oklch(0.968 0.007 247.896);
+  --color-slate-200: oklch(0.929 0.013 255.508);
+  --color-slate-300: oklch(0.869 0.022 252.894);
+  --color-slate-400: oklch(0.704 0.04 256.788);
+  --color-slate-500: oklch(0.554 0.046 257.417);
+  --color-slate-600: oklch(0.446 0.043 257.281);
+  --color-slate-700: oklch(0.372 0.044 257.287);
+  --color-slate-800: oklch(0.279 0.041 260.031);
+  --color-slate-900: oklch(0.208 0.042 265.755);
+  --color-slate-950: oklch(0.129 0.042 264.695);
+
+  --color-indigo-50: oklch(0.962 0.018 272.314);
+  --color-indigo-100: oklch(0.93 0.034 272.788);
+  --color-indigo-200: oklch(0.87 0.065 274.039);
+  --color-indigo-300: oklch(0.785 0.115 274.713);
+  --color-indigo-400: oklch(0.673 0.182 276.935);
+  --color-indigo-500: oklch(0.585 0.233 277.117);
+  --color-indigo-600: oklch(0.511 0.262 276.966);
+  --color-indigo-700: oklch(0.457 0.24 277.023);
+  --color-indigo-800: oklch(0.398 0.195 277.366);
+  --color-indigo-900: oklch(0.359 0.144 278.697);
+  --color-indigo-950: oklch(0.257 0.09 281.288);
+
+  /* Typography */
+  --font-family-sans: system-ui, sans-serif;
+  --font-family-serif: Charter, "Bitstream Charter", "Sitka Text", Cambria,
+    serif;
+  --font-family-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+    Consolas, "DejaVu Sans Mono", monospace;
+  --font-size-1: 0.75rem;
+  --font-size-2: 0.875rem;
+  --font-size-3: 1rem;
+  --font-size-4: 1.125rem;
+  --font-size-5: 1.25rem;
+  --font-size-6: 1.5rem;
+  --font-size-7: 1.875rem;
+  --font-size-8: 2.25rem;
+  --font-size-9: 3rem;
+  --font-size-10: 3.75rem;
+  --font-size-11: 4.5rem;
+
+  /* Spacing */
+  --spacing-base: 16px;
+  --spacing-1: calc(var(--spacing-base) * 0.25);
+  --spacing-2: calc(var(--spacing-base) * 0.5);
+  --spacing-3: calc(var(--spacing-base) * 0.75);
+  --spacing-4: var(--spacing-base);
+  --spacing-5: calc(var(--spacing-base) * 1.5);
+  --spacing-6: calc(var(--spacing-base) * 2);
+  --spacing-7: calc(var(--spacing-base) * 3);
+  --spacing-8: calc(var(--spacing-base) * 4);
+  --spacing-9: calc(var(--spacing-base) * 6);
+  --spacing-10: calc(var(--spacing-base) * 8);
+  --spacing-11: calc(var(--spacing-base) * 12);
+  --spacing-12: calc(var(--spacing-base) * 16);
+  --spacing-13: calc(var(--spacing-base) * 24);
+  --spacing-14: calc(var(--spacing-base) * 32);
+  --spacing-15: calc(var(--spacing-base) * 40);
+  --spacing-16: calc(var(--spacing-base) * 48);
+
+  /* Layout */
+  --container-width: 75ch;
+}

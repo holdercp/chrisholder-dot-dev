@@ -1,0 +1,27 @@
+html {
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-950);
+  font-family: var(--font-family-sans);
+}
+
+body > header,
+body > main,
+body > footer {
+  width: 100%;
+  padding: var(--spacing-4);
+  max-width: var(--container-width);
+  margin-inline: auto;
+}
+
+@media (min-width: 100ch) {
+  body > header,
+  body > main,
+  body > footer {
+    padding-inline: 0;
+  }
+}
+
+a {
+  color: var(--color-indigo-600);
+  text-decoration-thickness: 2px;
+}

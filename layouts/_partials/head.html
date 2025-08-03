@@ -1,6 +1,11 @@
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
 
-{{ $style := resources.Get "css/reset.css" | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" />
+  {{ $reset := resources.Get "css/reset.css" }}
+  {{ $variables := resources.Get "css/variables.css" }}
+  {{ $global := resources.Get "css/global.css" }}
+  {{ $css := slice $reset $variables $global | resources.Concat "css/index.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}" />
+</head>
