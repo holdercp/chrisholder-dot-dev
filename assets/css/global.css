@@ -1,0 +1,128 @@
+:root {
+  --primary-color: var(--color-teal-700);
+  --color: var(--color-zinc-700);
+  --background-color: var(--color-zinc-100);
+
+  background-color: var(--background-color);
+  color: var(--color);
+  font-family: var(--font-family-sans);
+}
+
+body > header,
+body > main,
+body > footer {
+  width: 100%;
+  padding: var(--spacing-4);
+  max-width: var(--width-container);
+  margin-inline: auto;
+}
+
+body > footer {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  font-weight: bold;
+  margin-block-end: var(--spacing-4);
+}
+
+h1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-5xl);
+  margin-block-end: var(--spacing-6);
+}
+
+h2 {
+  font-size: var(--font-size-3xl);
+  line-height: var(--line-height-3xl);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-2xl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+}
+
+h6 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+}
+
+:where(article, address, blockquote, dl, figure, form, ol, p, pre, table, ul)
+  ~ :is(h1, h2, h3, h4, h5, h6) {
+  margin-block-start: var(--spacing-6);
+}
+
+p {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  margin-block-start: 0;
+  margin-block-end: var(--spacing-4);
+}
+
+a {
+  color: var(--color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-2);
+
+  & ul {
+    display: flex;
+    list-style: none;
+    gap: var(--spacing-4);
+    margin: 0;
+    padding: 0;
+
+    & a {
+      text-transform: uppercase;
+      color: var(--primary-color);
+      letter-spacing: var(--letter-spacing-wide);
+      font-size: var(--font-size-sm);
+
+      &:hover,
+      &:active,
+      &[aria-current="page"] {
+        color: var(--color-teal-800);
+        text-decoration-line: underline;
+      }
+    }
+  }
+
+  a {
+    text-decoration-line: none;
+  }
+}
+
+@media (min-width: 100ch) {
+  body > header,
+  body > main,
+  body > footer {
+    padding-inline: 0;
+  }
+}

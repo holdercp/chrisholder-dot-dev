@@ -1,0 +1,9 @@
+baseURL = 'https://chrisholder.dev/'
+languageCode = 'en-us'
+title = 'Chris Holder Dot Dev'
+enableGitInfo = true
+
+[params]
+[params.author]
+name = "Chris Holder"
+email = "chris@chrisholder.dev"
