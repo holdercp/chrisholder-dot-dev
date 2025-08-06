@@ -8,11 +8,11 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addGlobalData("currentYear", new Date().getFullYear());
+  eleventyConfig.addWatchTarget("./src/assets/");
 
   return {
     dir: {
-      input: "content",
-      includes: "../_includes",
+      input: "src",
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",

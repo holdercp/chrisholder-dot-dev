@@ -1,0 +1,79 @@
+:root {
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+
+  --color-gray-50: hsl(0, 0%, 97%);
+  --color-gray-100: hsl(0, 0%, 88%);
+  --color-gray-200: hsl(0, 0%, 81%);
+  --color-gray-300: hsl(0, 0%, 69%);
+  --color-gray-400: hsl(0, 0%, 62%);
+  --color-gray-500: hsl(0, 0%, 49%);
+  --color-gray-600: hsl(0, 0%, 38%);
+  --color-gray-700: hsl(0, 0%, 32%);
+  --color-gray-800: hsl(0, 0%, 23%);
+  --color-gray-900: hsl(0, 0%, 13%);
+
+  --color-teal-50: hsl(165, 67%, 96%);
+  --color-teal-100: hsl(163, 75%, 87%);
+  --color-teal-200: hsl(162, 73%, 74%);
+  --color-teal-300: hsl(164, 70%, 63%);
+  --color-teal-400: hsl(166, 64%, 49%);
+  --color-teal-500: hsl(168, 78%, 41%);
+  --color-teal-600: hsl(170, 91%, 32%);
+  --color-teal-700: hsl(172, 94%, 26%);
+  --color-teal-800: hsl(172, 98%, 20%);
+  --color-teal-900: hsl(176, 100%, 13%);
+
+  /* Typography */
+  --font-family-sans: system-ui, sans-serif;
+  --font-family-serif:
+    Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+  --font-family-mono:
+    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  --font-size-7xl: 4.5rem;
+
+  --line-height-xs: 1;
+  --line-height-sm: 1.25;
+  --line-height-md: 1.5;
+  --line-height-lg: 1.75;
+  --line-height-xl: 2;
+
+  --letter-spacing-tight: -0.05em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.05em;
+
+  /* Spacing */
+  --spacing-base: 16px;
+  --spacing-1: calc(var(--spacing-base) * 0.25);
+  --spacing-2: calc(var(--spacing-base) * 0.5);
+  --spacing-3: calc(var(--spacing-base) * 0.75);
+  --spacing-4: var(--spacing-base);
+  --spacing-5: calc(var(--spacing-base) * 1.5);
+  --spacing-6: calc(var(--spacing-base) * 2);
+  --spacing-7: calc(var(--spacing-base) * 3);
+  --spacing-8: calc(var(--spacing-base) * 4);
+  --spacing-9: calc(var(--spacing-base) * 6);
+  --spacing-10: calc(var(--spacing-base) * 8);
+  --spacing-11: calc(var(--spacing-base) * 12);
+  --spacing-12: calc(var(--spacing-base) * 16);
+  --spacing-13: calc(var(--spacing-base) * 24);
+  --spacing-14: calc(var(--spacing-base) * 32);
+  --spacing-15: calc(var(--spacing-base) * 40);
+  --spacing-16: calc(var(--spacing-base) * 48);
+
+  /* Width */
+  --width-container: 75ch;
+}

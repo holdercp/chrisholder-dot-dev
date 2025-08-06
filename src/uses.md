@@ -1,5 +1,5 @@
 ---
-layout: base.html
+layout: layout.html
 title: Uses
 date: Last Modified
 eleventyNavigation:
