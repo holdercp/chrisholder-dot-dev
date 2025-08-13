@@ -9,6 +9,10 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addGlobalData("currentYear", new Date().getFullYear());
   eleventyConfig.addWatchTarget("./src/assets/");
+  eleventyConfig.addPassthroughCopy("CNAME");
+  eleventyConfig.addPassthroughCopy({
+    "./src/assets/icons/favicon.ico": "favicon.ico",
+  });
 
   return {
     dir: {
