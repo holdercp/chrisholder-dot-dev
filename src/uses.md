@@ -1,7 +1,7 @@
 ---
 layout: layout.html
 title: Uses
-date: Last Modified
+date: git Last Modified
 eleventyNavigation:
   key: uses
   title: Uses
