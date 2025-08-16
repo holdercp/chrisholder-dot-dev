@@ -15,4 +15,4 @@ I’ve also built design systems and component libraries using React, Vue, Ruby,
 
 I’m a husband to my beautiful wife of 10 years and a dad to two amazing kids. I love running, weightlifting, backpacking, and playing video games.
 
-If you’d like to connect about work, you can [**send me an email**](mailto:chris@chrisholder.dev) or reach out on [**LinkedIn**](https://www.linkedin.com/in/chrispholder). To see what I’ve been working on, take a peek at my [**GitHub**](https://github.com/holdercp/)
+If you’d like to connect about work, you can [**send me an email**](mailto:chris@chrisholder.dev) or reach out on [**LinkedIn**](https://www.linkedin.com/in/holdercp). To see what I’ve been working on, take a peek at my [**GitHub**](https://github.com/holdercp/)
