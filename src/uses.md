@@ -11,7 +11,7 @@ eleventyNavigation:
 
 This is a list of hardware, software, and products I use to get things done as a software engineer. It’s inspired by [uses.tech](https://uses.tech). I’ll keep this page updated as things change, and hopefully you might find something useful to add to your own setup.
 
-Last updated **{% time page.lastModified %}**
+Last updated **{% time lastModified %}**
 
 ## Hardware
 
