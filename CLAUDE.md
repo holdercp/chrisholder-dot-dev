@@ -7,7 +7,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Development
 - `npm run dev` - Start development server with live reload (uses Eleventy --serve)
 - `npm run build` - Build the site for production
-- `npm run format` - Format code with Prettier (available but not in package.json scripts)
+- `npm run build-ghpages` - Build for GitHub Pages deployment with path prefix
+- `npx prettier --write .` - Format code with Prettier
 
 ### Testing
 - No test suite configured - this is intentionally a simple site
@@ -17,9 +18,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is a personal website built with Eleventy (11ty) v3.1.2 following a "plain vanilla" web approach. The philosophy is to use minimal abstractions and build tools to keep things simple.
 
 ### Key Structure
-- **Content**: `content/` directory contains Markdown files (input directory)
-- **Templates**: `_includes/` contains HTML templates (Nunjucks/Liquid)
-- **Styles**: `assets/css/` contains CSS files processed through Nunjucks templates
+- **Content**: `src/` directory contains Markdown content files (input directory)
+- **Templates**: `src/_includes/` contains HTML templates (Nunjucks)
+- **Styles**: `src/assets/css/` contains CSS files processed through Nunjucks templates
 - **Output**: `_site/` is the build output directory
 
 ### Template Engine
@@ -27,7 +28,7 @@ This is a personal website built with Eleventy (11ty) v3.1.2 following a "plain 
 - Content files support front matter with `eleventyNavigation` for menu generation
 
 ### CSS Architecture
-- `assets/css/index.njk` compiles all CSS into a single `index.css` file
+- `src/assets/css/index.css.njk` compiles all CSS into a single `index.css` file
 - Uses modern-normalize as CSS reset
 - CSS variables defined in `variables.css`
 - Global styles in `global.css`
