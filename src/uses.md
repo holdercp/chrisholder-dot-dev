@@ -1,7 +1,8 @@
 ---
 layout: layout.html
 title: Uses
-lastModified: git Last Modified
+description: A list of hardware, software, and products I use to get things done as a software engineer.
+lastModified: Last Modified
 eleventyNavigation:
   key: uses
   title: Uses
