@@ -2,7 +2,7 @@
 layout: layout.html
 title: Uses
 description: A list of hardware, software, and products I use to get things done as a software engineer.
-lastModified: Last Modified
+updated: 2025-08-18
 eleventyNavigation:
   key: uses
   title: Uses
@@ -12,7 +12,7 @@ eleventyNavigation:
 
 This is a list of hardware, software, and products I use to get things done as a software engineer. It’s inspired by [uses.tech](https://uses.tech). I’ll keep this page updated as things change, and hopefully you might find something useful to add to your own setup.
 
-Last updated **{% time lastModified %}**
+Last updated **{% time updated %}**
 
 ## Hardware
 

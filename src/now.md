@@ -2,7 +2,6 @@
 layout: layout.html
 title: What I'm Currently...
 description: A list of what I'm currently working on, reading, watching, playing, and listening to. Also, what I've done in the past.
-lastModified: Last Modified
 eleventyNavigation:
   key: now
   title: Now
@@ -32,6 +31,5 @@ eleventyNavigation:
 
 ## Listening To
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/1dVyjwS8FBqXhRunaG5W5u?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/3sfbS4uuJNJtUTdnBG1KkI?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+- *[The Music of 3Blue1Brown](https://open.spotify.com/album/1dVyjwS8FBqXhRunaG5W5u?si=fzQjNqMzSeeC9VgDpGsvGw)* by Grant Sanderson and Vincent Rubinetti
+- *[The Late-Round Fantasy Football Podcast](https://open.spotify.com/show/3sfbS4uuJNJtUTdnBG1KkI)* by JJ Zachariason
