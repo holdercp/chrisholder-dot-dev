@@ -1,0 +1,21 @@
+<nav>
+  <a href="/" class="h3"
+    ><strong
+      >Chris Holder
+      <span class="dot">.</span>
+      Dev</strong
+    ></a
+  >
+  {% set navPages = collections.all | eleventyNavigation %}
+  <ul>
+    {%- for entry in navPages %}
+      <li>
+        <a
+          href="{{ entry.url }}"
+          {% if entry.url == page.url %}aria-current="page"{% endif %}
+          >{{ entry.title }}</a
+        >
+      </li>
+    {%- endfor %}
+  </ul>
+</nav>
