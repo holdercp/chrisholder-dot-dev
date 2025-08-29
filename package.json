@@ -23,8 +23,7 @@
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "3.1.2",
-    "@11ty/eleventy-navigation": "1.0.4",
-    "modern-normalize": "3.0.1"
+    "@11ty/eleventy-navigation": "1.0.4"
   },
   "devDependencies": {
     "prettier": "3.6.2",
