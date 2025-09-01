@@ -19,8 +19,10 @@ This is a personal website built with Eleventy (11ty) v3.1.2 following a "plain 
 
 ### Key Structure
 - **Content**: `src/` directory contains Markdown content files (input directory)
-- **Templates**: `src/_includes/` contains HTML templates (Nunjucks)
+- **Templates**: `src/_includes/` contains HTML templates (Nunjucks) including modular `header.html`, `footer.html`, `head.html`, and main `layout.html`
 - **Styles**: `src/assets/css/` contains CSS files processed through Nunjucks templates
+- **Data**: `src/_data/` contains site metadata and global data
+- **Assets**: `src/assets/icons/` contains static assets like favicon
 - **Output**: `_site/` is the build output directory
 
 ### Template Engine
@@ -28,18 +30,19 @@ This is a personal website built with Eleventy (11ty) v3.1.2 following a "plain 
 - Content files support front matter with `eleventyNavigation` for menu generation
 
 ### CSS Architecture
-- `src/assets/css/index.css.njk` compiles all CSS into a single `index.css` file
-- Uses modern-normalize as CSS reset
-- CSS variables defined in `variables.css`
-- Global styles in `global.css`
+- `src/assets/css/index.css.njk` compiles all CSS into a single `index.css` file using CSS layers
+- Uses `@layer reset, html, utilities` structure for cascade control
+- CSS files are included via Nunjucks `{% include %}` statements
+- CSS reset in `reset.css`, variables in `variables.css`, main styles in `html.css`, utilities in `utilities.css`
 
 ### Navigation
 - Uses `@11ty/eleventy-navigation` plugin for automatic menu generation
 - Pages define navigation structure via front matter `eleventyNavigation` object
 
-### Filters and Data
-- `formatDate` filter for date formatting using Intl.DateTimeFormat
+### Shortcodes and Data
+- `time` shortcode generates semantic `<time>` elements with datetime attributes using Intl.DateTimeFormat
 - `currentYear` global data for copyright footer
+- Site metadata stored in `src/_data/meta.json`
 
 ## Site Philosophy
 
