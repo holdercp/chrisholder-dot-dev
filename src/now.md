@@ -5,7 +5,7 @@ description: A list of what I'm currently working on, reading, watching, playing
 eleventyNavigation:
   key: now
   title: Now
-  order: 1
+  order: 2
 ---
 
 # {{ title }}
@@ -16,20 +16,20 @@ eleventyNavigation:
 
 ## Reading
 
-- *[Millionaire Mission](https://www.goodreads.com/book/show/198139881-millionaire-mission)* by Brian Preston
-- *[Reentry](https://www.goodreads.com/book/show/205309521-reentry)* by Eric Berger
+- _[Millionaire Mission](https://www.goodreads.com/book/show/198139881-millionaire-mission)_ by Brian Preston
+- _[Reentry](https://www.goodreads.com/book/show/205309521-reentry)_ by Eric Berger
 
 ## Watching
 
-- *[Mr. Robot, season 1](https://www.rottentomatoes.com/tv/mr_robot/s01)*
-- *[Quarterback Season 2](https://www.rottentomatoes.com/tv/quarterback/s02)*
+- _[Mr. Robot, season 1](https://www.rottentomatoes.com/tv/mr_robot/s01)_
+- _[Quarterback Season 2](https://www.rottentomatoes.com/tv/quarterback/s02)_
 
 ## Playing
 
-- *[Animal Crossing: New Horizons](https://www.metacritic.com/game/1300491012/)*
-- *[Metroid Dread](https://www.metacritic.com/game/metroid-dread/)*
+- _[Animal Crossing: New Horizons](https://www.metacritic.com/game/1300491012/)_
+- _[Metroid Dread](https://www.metacritic.com/game/metroid-dread/)_
 
 ## Listening To
 
-- *[The Music of 3Blue1Brown](https://open.spotify.com/album/1dVyjwS8FBqXhRunaG5W5u?si=fzQjNqMzSeeC9VgDpGsvGw)* by Grant Sanderson and Vincent Rubinetti
-- *[The Late-Round Fantasy Football Podcast](https://open.spotify.com/show/3sfbS4uuJNJtUTdnBG1KkI)* by JJ Zachariason
+- _[The Music of 3Blue1Brown](https://open.spotify.com/album/1dVyjwS8FBqXhRunaG5W5u?si=fzQjNqMzSeeC9VgDpGsvGw)_ by Grant Sanderson and Vincent Rubinetti
+- _[The Late-Round Fantasy Football Podcast](https://open.spotify.com/show/3sfbS4uuJNJtUTdnBG1KkI)_ by JJ Zachariason

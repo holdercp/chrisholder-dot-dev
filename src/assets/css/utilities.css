@@ -1,0 +1,64 @@
+.text-primary-dark {
+  color: var(--color-primary-text-dark);
+}
+.text-primary {
+  color: var(--color-primary-text);
+}
+.text-primary-light {
+  color: var(--color-primary-text-light);
+}
+
+.text-size-xs {
+  font-size: var(--font-size-xs);
+}
+.text-size-sm {
+  font-size: var(--font-size-sm);
+}
+.text-size-md {
+  font-size: var(--font-size-md);
+}
+.text-size-lg {
+  font-size: var(--font-size-lg);
+}
+.text-size-xl {
+  font-size: var(--font-size-xl);
+}
+.text-size-2xl {
+  font-size: var(--font-size-2xl);
+}
+.text-size-3xl {
+  font-size: var(--font-size-3xl);
+}
+.text-size-4xl {
+  font-size: var(--font-size-4xl);
+}
+.text-size-5xl {
+  font-size: var(--font-size-5xl);
+}
+.text-size-6xl {
+  font-size: var(--font-size-6xl);
+}
+.text-size-7xl {
+  font-size: var(--font-size-7xl);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.letter-spacing-normal {
+  letter-spacing: var(--letter-spacing);
+}
+.letter-spacing-tight {
+  letter-spacing: var(--letter-spacing-tight);
+}
+.letter-spacing-wide {
+  letter-spacing: var(--letter-spacing-wide);
+}

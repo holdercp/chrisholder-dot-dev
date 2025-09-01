@@ -1,6 +1,23 @@
 ---
 permalink: index.css
 ---
-{% include "./reset.css" %}
+
+@layer reset, html, groups, utilities;
+
 {% include "./variables.css" %}
-{% include "./global.css" %}
+
+@layer reset {
+  {% include "./reset.css" %}
+}
+
+@layer html {
+  {% include "./html.css" %}
+}
+
+@layer groups {
+  {% include "./groups.css" %}
+}
+
+@layer utilities {
+  {% include "./utilities.css" %}
+}

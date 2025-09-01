@@ -1,0 +1,12 @@
+.list-inline {
+  --gap: var(--spacing-4);
+
+  margin: 0;
+  list-style-type: "";
+  padding-inline: 0;
+  display: flex;
+  column-gap: var(--gap);
+  row-gap: calc(var(--gap) * 0.5);
+  flex-wrap: wrap;
+  align-items: center;
+}

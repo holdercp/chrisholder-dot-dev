@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    {% include "./head.html" %}
-  </head>
+  {% include "./head.html" %}
   <body>
-    <header>{% include "./header.html" %}</header>
+    {% include "./header.html" %}
     <main>{{ content | safe }}</main>
-    <footer>{% include "./footer.html" %}</footer>
+    {% include "./footer.html" %}
   </body>
 </html>
