@@ -16,18 +16,18 @@ eleventyNavigation:
 
 ## Reading
 
-- _[Millionaire Mission](https://www.goodreads.com/book/show/198139881-millionaire-mission)_ by Brian Preston
+- _[Project Hail Mary](https://en.wikipedia.org/wiki/Project_Hail_Mary)_ by Andy Weir
 - _[Reentry](https://www.goodreads.com/book/show/205309521-reentry)_ by Eric Berger
 
 ## Watching
 
 - _[Mr. Robot, season 1](https://www.rottentomatoes.com/tv/mr_robot/s01)_
-- _[Quarterback Season 2](https://www.rottentomatoes.com/tv/quarterback/s02)_
+- _[Formula 1: Drive to Survive, season 8](https://en.wikipedia.org/wiki/Formula_1:_Drive_to_Survive_season_8)_
 
 ## Playing
 
-- _[Animal Crossing: New Horizons](https://www.metacritic.com/game/1300491012/)_
-- _[Metroid Dread](https://www.metacritic.com/game/metroid-dread/)_
+- _[Arc Raiders](https://en.wikipedia.org/wiki/ARC_Raiders)_
+- _[Kingdom Come: Deliverance II](https://en.wikipedia.org/wiki/Kingdom_Come:_Deliverance_II)_
 
 ## Listening To
 
